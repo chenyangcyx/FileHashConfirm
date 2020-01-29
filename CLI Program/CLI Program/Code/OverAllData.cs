@@ -12,5 +12,7 @@ namespace CLI_Program.Code
         public const string table_name = "hashcode";
         public const string column_1_name = "filename";
         public const string column_2_name = "hashvalue";
+
+        public static bool if_traversal = false;     //是否遍历
     }
 }

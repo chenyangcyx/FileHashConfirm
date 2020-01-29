@@ -18,7 +18,7 @@ namespace CLI_Program.Code
         }
 
         //打开数据库
-        protected void OpenDataBase()
+        public void OpenDataBase()
         {
             cn = new SqliteConnection($"data source={OverAllData.database_path}");
             cn.Open();
